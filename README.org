@@ -1,0 +1,34 @@
+* Environment Setup Instructions
+1. Clone this repository.
+   1. Launch a terminal.
+   2. If you have not already, [[https://github.com/cli/cli#installation][install GitHub's official command line interface]].
+   3. Run the command ~cd dirname~ where ~dirname~ is the name of the directory (folder) where you want to keep the project in. The author keeps it in ~~/Repos~.
+   4. Clone the repository via ~gh repo clone bcatalfo/GhostGame~.
+2. Setup a [[https://docs.python.org/3/tutorial/venv.html][python virtual environment]].
+   1. Open a terminal and navigate to this repository via ~cd dirname/GhostGame~ where ~dirname~ is the parent directory.
+   2. Create a virtual environment named ~env~ via ~python3 -m venv env~.
+   3. Activate the virtual environment.
+      - If you're running the [[https://fishshell.com/][fish shell]] (the author's reccomendation) run ~source env/bin/activate.fish~.
+      - For the bash shell (Unix or MacOS) run ~source env/bin/activate~.
+      - For Windows (god help your soul) run ~env\Scripts\activate.bat~.
+   4. Verify that the virtual environment is activated.
+      - Your shell prompt should change showing the name of the virtual environment (env). The author reccomends the [[https://starship.rs/][Starship: Cross-Shell Prompt]].
+      - To double-check you can look at the value of ~sys.prefix~ in the Python interpreter.
+        1. Run the command ~python3~ (just ~python~ should work but in some cases this gives you python version 2 instead of 3) to open the interpreter.
+        2. Import the sys module via ~import sys~.
+        3. Check where the platform independent Python files are installed by running ~sys.prefix~. This should say something like ~dirname/GhostGame/env~.
+        4. To triple-check run ~sys.base_prefix~ to get the location of the base python installation. If this is different then the value of ~sys.prefix~ you are A-okay.
+        5. You can exit the python interpreter via ~exit()~.
+   5. Install the project dependencies via ~python -m pip install -r requirements.txt~.
+   6. When you are done you can deactivate the virtual environment via the ~deactivate~ command.
+* Tech stack
+** Backend
+*** Meat and bones is [[https://www.djangoproject.com/][Django]] with an API via either [[https://www.django-rest-framework.org/][Django REST framework]] or [[https://django-ninja.rest-framework.com/][Django Ninja]].
+** Frontend
+*** Website
+**** The author wants to use plain javascript or [[https://react.dev/][React]] for the UI. Should we check out something like [[https://nextjs.org/][Next.js]] or [[https://remix.run/][Remix]] for a full fledged framework? (The react docs reccomend these).
+**** Also want to try [[https://tailwindcss.com/][Tailwind CSS]].
+*** Mobile app
+**** The author thinks we should do [[https://reactnative.dev/][React Native]] over [[https://flutter.dev/][Flutter]] as we are already using react and it's more hireable.
+* About this file
+** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]] and then exported to HTML.
