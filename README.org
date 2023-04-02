@@ -1,9 +1,10 @@
 * Environment Setup Instructions
 1. Clone this repository.
-   1. Launch a terminal.
-   2. If you have not already, [[https://github.com/cli/cli#installation][install GitHub's official command line interface]].
-   3. Run the command ~cd dirname~ where ~dirname~ is the name of the directory (folder) where you want to keep the project in. The author keeps it in ~~/Repos~.
-   4. Clone the repository via ~gh repo clone bcatalfo/GhostGame~.
+   1. Run the command ~cd dirname~ where ~dirname~ is the name of the directory (folder) where you want to keep the project in. The author keeps it in ~~/Repos~.
+      - To clone via the [[https://cli.github.com/][GitHub CLI]]:
+        a. First [[https://github.com/cli/cli#installation][install GitHub's official command line interface]].
+        b. Then clone the repository via ~gh repo clone bcatalfo/GhostGame~.
+      - Without the official GitHub CLI you can clone via git with ~git clone https://www.github.com/bcatalfo/GhostGame~.
 2. Setup a [[https://docs.python.org/3/tutorial/venv.html][python virtual environment]].
    1. Open a terminal and navigate to this repository via ~cd dirname/GhostGame~ where ~dirname~ is the parent directory.
    2. Create a virtual environment named ~env~ via ~python3 -m venv env~.

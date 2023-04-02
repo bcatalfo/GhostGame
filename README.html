@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-04-02 Sun 01:37 -->
+<!-- 2023-04-02 Sun 16:53 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -200,40 +200,45 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgfd647cb">1. Environment Setup Instructions</a></li>
-<li><a href="#orgbb1e080">2. Tech stack</a>
+<li><a href="#orge3e2bbe">1. Environment Setup Instructions</a></li>
+<li><a href="#org0ab5058">2. Tech stack</a>
 <ul>
-<li><a href="#orgc1bc6a5">2.1. Backend</a>
+<li><a href="#orgfd1760a">2.1. Backend</a>
 <ul>
-<li><a href="#org609c1c2">2.1.1. Meat and bones is Django with an API via either Django REST framework or Django Ninja.</a></li>
+<li><a href="#org671a3dd">2.1.1. Meat and bones is Django with an API via either Django REST framework or Django Ninja.</a></li>
 </ul>
 </li>
-<li><a href="#org58f2cc6">2.2. Frontend</a>
+<li><a href="#orgd86904e">2.2. Frontend</a>
 <ul>
-<li><a href="#org8e683ba">2.2.1. Website</a></li>
-<li><a href="#orgd51f70a">2.2.2. Mobile app</a></li>
+<li><a href="#org3ed806b">2.2.1. Website</a></li>
+<li><a href="#org2df4019">2.2.2. Mobile app</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org9c15cdc">3. About this file</a>
+<li><a href="#org266a1fd">3. About this file</a>
 <ul>
-<li><a href="#org029084f">3.1. This file was created in Doom Emacs via Org mode and then exported to HTML.</a></li>
+<li><a href="#org29e3724">3.1. This file was created in Doom Emacs via Org mode and then exported to HTML.</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfd647cb" class="outline-2">
-<h2 id="orgfd647cb"><span class="section-number-2">1.</span> Environment Setup Instructions</h2>
+<div id="outline-container-orge3e2bbe" class="outline-2">
+<h2 id="orge3e2bbe"><span class="section-number-2">1.</span> Environment Setup Instructions</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>Clone this repository.
 <ol class="org-ol">
-<li>Launch a terminal.</li>
-<li>If you have not already, <a href="https://github.com/cli/cli#installation">install GitHub&rsquo;s official command line interface</a>.</li>
-<li>Run the command <code>cd dirname</code> where <code>dirname</code> is the name of the directory (folder) where you want to keep the project in. The author keeps it in <code>~/Repos</code>.</li>
-<li>Clone the repository via <code>gh repo clone bcatalfo/GhostGame</code>.</li>
+<li>Run the command <code>cd dirname</code> where <code>dirname</code> is the name of the directory (folder) where you want to keep the project in. The author keeps it in <code>~/Repos</code>.
+<ul class="org-ul">
+<li>To clone via the <a href="https://cli.github.com/">GitHub CLI</a>:
+<ol class="org-ol">
+<li>First <a href="https://github.com/cli/cli#installation">install GitHub&rsquo;s official command line interface</a>.</li>
+<li>Then clone the repository via <code>gh repo clone bcatalfo/GhostGame</code>.</li>
+</ol></li>
+<li>Without the official GitHub CLI you can clone via git with <code>git clone https://www.github.com/bcatalfo/GhostGame</code>.</li>
+</ul></li>
 </ol></li>
 <li>Setup a <a href="https://docs.python.org/3/tutorial/venv.html">python virtual environment</a>.
 <ol class="org-ol">
@@ -263,53 +268,53 @@
 </ol>
 </div>
 </div>
-<div id="outline-container-orgbb1e080" class="outline-2">
-<h2 id="orgbb1e080"><span class="section-number-2">2.</span> Tech stack</h2>
+<div id="outline-container-org0ab5058" class="outline-2">
+<h2 id="org0ab5058"><span class="section-number-2">2.</span> Tech stack</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgc1bc6a5" class="outline-3">
-<h3 id="orgc1bc6a5"><span class="section-number-3">2.1.</span> Backend</h3>
+<div id="outline-container-orgfd1760a" class="outline-3">
+<h3 id="orgfd1760a"><span class="section-number-3">2.1.</span> Backend</h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-org609c1c2" class="outline-4">
-<h4 id="org609c1c2"><span class="section-number-4">2.1.1.</span> Meat and bones is <a href="https://www.djangoproject.com/">Django</a> with an API via either <a href="https://www.django-rest-framework.org/">Django REST framework</a> or <a href="https://django-ninja.rest-framework.com/">Django Ninja</a>.</h4>
+<div id="outline-container-org671a3dd" class="outline-4">
+<h4 id="org671a3dd"><span class="section-number-4">2.1.1.</span> Meat and bones is <a href="https://www.djangoproject.com/">Django</a> with an API via either <a href="https://www.django-rest-framework.org/">Django REST framework</a> or <a href="https://django-ninja.rest-framework.com/">Django Ninja</a>.</h4>
 </div>
 </div>
-<div id="outline-container-org58f2cc6" class="outline-3">
-<h3 id="org58f2cc6"><span class="section-number-3">2.2.</span> Frontend</h3>
+<div id="outline-container-orgd86904e" class="outline-3">
+<h3 id="orgd86904e"><span class="section-number-3">2.2.</span> Frontend</h3>
 <div class="outline-text-3" id="text-2-2">
 </div>
-<div id="outline-container-org8e683ba" class="outline-4">
-<h4 id="org8e683ba"><span class="section-number-4">2.2.1.</span> Website</h4>
+<div id="outline-container-org3ed806b" class="outline-4">
+<h4 id="org3ed806b"><span class="section-number-4">2.2.1.</span> Website</h4>
 <div class="outline-text-4" id="text-2-2-1">
 </div>
 <ol class="org-ol">
-<li><a id="org3dd0538"></a>The author wants to use plain javascript or <a href="https://react.dev/">React</a> for the UI. Should we check out something like <a href="https://nextjs.org/">Next.js</a> or <a href="https://remix.run/">Remix</a> for a full fledged framework? (The react docs reccomend these).<br /></li>
-<li><a id="orgcf3406f"></a>Also want to try <a href="https://tailwindcss.com/">Tailwind CSS</a>.<br /></li>
+<li><a id="orgadf1917"></a>The author wants to use plain javascript or <a href="https://react.dev/">React</a> for the UI. Should we check out something like <a href="https://nextjs.org/">Next.js</a> or <a href="https://remix.run/">Remix</a> for a full fledged framework? (The react docs reccomend these).<br /></li>
+<li><a id="org668ae2e"></a>Also want to try <a href="https://tailwindcss.com/">Tailwind CSS</a>.<br /></li>
 </ol>
 </div>
-<div id="outline-container-orgd51f70a" class="outline-4">
-<h4 id="orgd51f70a"><span class="section-number-4">2.2.2.</span> Mobile app</h4>
+<div id="outline-container-org2df4019" class="outline-4">
+<h4 id="org2df4019"><span class="section-number-4">2.2.2.</span> Mobile app</h4>
 <div class="outline-text-4" id="text-2-2-2">
 </div>
 <ol class="org-ol">
-<li><a id="org3477f42"></a>The author thinks we should do <a href="https://reactnative.dev/">React Native</a> over <a href="https://flutter.dev/">Flutter</a> as we are already using react and it&rsquo;s more hireable.<br /></li>
+<li><a id="org642e31f"></a>The author thinks we should do <a href="https://reactnative.dev/">React Native</a> over <a href="https://flutter.dev/">Flutter</a> as we are already using react and it&rsquo;s more hireable.<br /></li>
 </ol>
 </div>
 </div>
 </div>
-<div id="outline-container-org9c15cdc" class="outline-2">
-<h2 id="org9c15cdc"><span class="section-number-2">3.</span> About this file</h2>
+<div id="outline-container-org266a1fd" class="outline-2">
+<h2 id="org266a1fd"><span class="section-number-2">3.</span> About this file</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org029084f" class="outline-3">
-<h3 id="org029084f"><span class="section-number-3">3.1.</span> This file was created in <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a> via <a href="https://orgmode.org/">Org mode</a> and then exported to HTML.</h3>
+<div id="outline-container-org29e3724" class="outline-3">
+<h3 id="org29e3724"><span class="section-number-3">3.1.</span> This file was created in <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a> via <a href="https://orgmode.org/">Org mode</a> and then exported to HTML.</h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Benjamin Catalfo</p>
-<p class="date">Created: 2023-04-02 Sun 01:37</p>
+<p class="date">Created: 2023-04-02 Sun 16:53</p>
 </div>
 </body>
 </html>
