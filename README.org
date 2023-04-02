@@ -27,9 +27,9 @@
 *** Meat and bones is [[https://www.djangoproject.com/][Django]] with an API via either [[https://www.django-rest-framework.org/][Django REST framework]] or [[https://django-ninja.rest-framework.com/][Django Ninja]].
 ** Frontend
 *** Website
-**** The author wants to use plain javascript or [[https://react.dev/][React]] for the UI. Should we check out something like [[https://nextjs.org/][Next.js]] or [[https://remix.run/][Remix]] for a full fledged framework? (The react docs reccomend these).
-**** Also want to try [[https://tailwindcss.com/][Tailwind CSS]].
+**** [[https://react.dev/][React]] and [[https://tailwindcss.com/][Tailwind CSS]].
 *** Mobile app
 **** The author thinks we should do [[https://reactnative.dev/][React Native]] over [[https://flutter.dev/][Flutter]] as we are already using react and it's more hireable.
+**** The mobile app is not a priority.
 * About this file
 ** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]] and then exported to HTML.
