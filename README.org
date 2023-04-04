@@ -24,6 +24,7 @@
         5. You can exit the python interpreter via ~exit()~.
    5. Install the project dependencies via ~python -m pip install -r requirements.txt~.
    6. When you are done you can deactivate the virtual environment via the ~deactivate~ command.
+3. Run the server with ~python manage.py runserver~ or ~./manage.py runserver~. Make sure you are in the ~ghost_game~ directory when you do this. Then open a browser and go to ~localhost:800~- you should see the server running.
 * Tech stack
 ** Backend
 *** Meat and bones is [[https://www.djangoproject.com/][Django]] with an API via either [[https://www.django-rest-framework.org/][Django REST framework]] or [[https://django-ninja.rest-framework.com/][Django Ninja]]. We can do real time stuff (gameplay and chat) with [[https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API][WebSockets]] via [[https://channels.readthedocs.io/en/stable/][Django Channels]].
@@ -48,7 +49,7 @@
 *** [ ] Friends
 *** [ ] Game lobbies
 ** TODO Design an API.
-** TODO Update this README. [0/1]
-*** [ ] Add instructions for starting the Django server.
+** TODO Update this README. [1/1]
+*** [X] Add instructions for starting the Django server.
 * About this file
 ** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]].
