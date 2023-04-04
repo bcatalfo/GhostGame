@@ -1,3 +1,5 @@
+#+title: README
+#+author: Benjamin Catalfo (and friends? :3)
 * Environment Setup Instructions
 1. Clone this repository.
    1. Run the command ~cd dirname~ where ~dirname~ is the name of the directory (folder) where you want to keep the project in. The author keeps it in ~~/Repos~.
