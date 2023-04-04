@@ -15,7 +15,7 @@
       - For the bash shell (Unix or MacOS) run ~source env/bin/activate~.
       - For Windows (god help your soul) run ~env\Scripts\activate.bat~.
    4. Verify that the virtual environment is activated.
-      - Your shell prompt should change showing the name of the virtual environment (env). The author reccomends the [[https://starship.rs/][Starship: Cross-Shell Prompt]].
+      - Your shell prompt should change showing the name of the virtual environment (env). The author recommends the [[https://starship.rs/][Starship: Cross-Shell Prompt]].
       - To double-check you can look at the value of ~sys.prefix~ in the Python interpreter.
         1. Run the command ~python3~ (just ~python~ should work but in some cases this gives you python version 2 instead of 3) to open the interpreter.
         2. Import the sys module via ~import sys~.
