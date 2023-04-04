@@ -48,5 +48,7 @@
 *** [ ] Friends
 *** [ ] Game lobbies
 ** TODO Design an API.
+** TODO Update this README. [0/1]
+*** [ ] Add instructions for starting the Django server.
 * About this file
 ** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]].
