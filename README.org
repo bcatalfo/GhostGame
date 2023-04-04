@@ -37,5 +37,16 @@
 *** Discord bot
 **** This would be too cool not to do :3
 
+* What to do for an alpha [0/3]
+** TODO Make front end [0/3]
+*** [ ] Initialize React project.
+*** [ ] HTML for the game.
+*** [ ] Tailwind CSS for the game.
+** TODO Django stuff [1/4]
+*** [X] Start a project
+*** [ ] User accounts
+*** [ ] Friends
+*** [ ] Game lobbies
+** TODO Design an API.
 * About this file
-** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]] and then exported to HTML.
+** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]].
