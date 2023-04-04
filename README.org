@@ -51,5 +51,19 @@
 ** TODO Design an API.
 ** TODO Update this README. [1/1]
 *** [X] Add instructions for starting the Django server.
+* Feature wish list
+- Be able to play the [[https://en.wikipedia.org/wiki/Ghost_(game)][Ghost word game]], specifically the variation where you can add letter to the beginning and the end of a word.
+- Make and account and add friends.
+- Make a lobby with a game with an invite link or just invite from your friend list.
+- In-game chat.
+- Upload custom dictionaries and play based off of those (i.e. league of legends characters).
+- Built in timer that can be customized.
+- Can note down "candidate words" that you are thinking of. Example: the board says "ython", you can write down "python" and the game will verify that "python" counts as a word.
+- Can challenge other players when you don't think they know a word that would work.
+- Some type of achievement system (?) like playing your first x games.
+- Can share the results of games to twitter with some copyable link generated, share with your friends to see if they could've guessed the word
+- Primarily a website but eventually a mobile app and a discord bot.
+- Make sure the website look good on mobile.
+- Website needs an about page, a link to the GitHub repository, a tutorial, a sign in page, etc.
 * About this file
 ** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]].
