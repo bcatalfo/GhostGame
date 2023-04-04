@@ -34,5 +34,8 @@
 *** Mobile app
 **** The author thinks we should do [[https://reactnative.dev/][React Native]] over [[https://flutter.dev/][Flutter]] as we are already using react and it's more hireable.
 **** The mobile app is not a priority.
+*** Discord bot
+**** This would be too cool not to do :3
+
 * About this file
 ** This file was created in [[https://github.com/doomemacs/doomemacs][Doom Emacs]] via [[https://orgmode.org/][Org mode]] and then exported to HTML.
